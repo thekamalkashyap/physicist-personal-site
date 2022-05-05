@@ -5,10 +5,12 @@
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 nav{
   display: flex;
-  justify-content: center;
 }
 nav li{
   list-style: none;
@@ -62,15 +64,13 @@ a{
 }
 @keyframes nav {
   0%{
-    transform: translateY(10rem);
     opacity: 0;
   }
   25%{
-    transform: translateY(10rem);
     opacity: 0.1;
   }
   100%{
-    transform:translateY(0rem);
+    opacity: 1;    
   }
 }
 @media (max-width:720px) {
