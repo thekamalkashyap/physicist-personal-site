@@ -1,20 +1,20 @@
 import "./App.css";
-
+import { Link } from "react-router-dom";
 function App() {
   return (
     <div className="App">
       <nav>
         <li>
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="/">Blogs</a>
+          <Link to="/blogs">Blogs</Link>
         </li>
         <li>
-          <a href="/">Projects</a>
+          <Link to="#">Projects</Link>
         </li>
         <li>
-          <a href="/">About</a>
+          <Link to="#">About</Link>
         </li>
       </nav>
     </div>

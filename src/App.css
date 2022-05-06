@@ -5,9 +5,15 @@
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-shadow: 0 0 1px rgb(0, 89, 255);
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.flex-col{
+  flex-direction: column;
 }
 nav{
   display: flex;
@@ -106,3 +112,18 @@ a{
     font-size: small;
   }
 }
+a{
+  color: white;
+}
+a:hover{
+  color: white;
+}
+ .blogpost{
+   border: 2px solid white;
+   border-radius: 1rem;
+   padding: 2rem;
+   margin-bottom: 2rem;
+ }
+ .margin-top{
+   margin-top: 2rem;
+ }
