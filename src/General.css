@@ -1,0 +1,33 @@
+root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.backhome{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+.backhome-btn {
+  background-color: rgb(47, 49, 49);
+  color: yellow;
+  border: none;
+  border-radius: 0.15rem;
+  font-size: 5vh;
+  padding: 1vh;
+}
+.blogs , .blog{
+    border: 2px solid yellow;
+    background-color: rgba(110, 110, 110, 0.463);
+    color: white;
+    padding: 3vw;
+    margin: 5vw;
+    border-radius: 2vh;
+}
+/* utils */
+.text-center {
+  text-align: center;
+}
