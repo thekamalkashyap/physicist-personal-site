@@ -33,17 +33,17 @@ function App() {
             </div>
             <div id="jupiter" className="orbit">
               <div className="pos">
-                <div className="planet">
-                  <Link to="/blogs">Blogs</Link>
-                </div>
+                <Link to="/blogs" className="planet">
+                  <span>Blogs</span>
+                </Link>
               </div>
             </div>
             <div id="saturn" className="orbit">
               <div className="pos">
-                <div className="planet">
+                <Link to="#" className="planet">
                   <div className="ring"></div>
-                  <Link to="/">About</Link>
-                </div>
+                  <span>About</span>
+                </Link>
               </div>
             </div>
             <div id="uranus" className="orbit">
@@ -56,9 +56,9 @@ function App() {
                 <div className="planet"></div>
               </div>
             </div>
-            <div id="sun">
-              <Link to="/">Home</Link>
-            </div>
+            <Link to="/" id="sun">
+              <span>Home</span>
+            </Link>
           </div>
         </div>
       </div>

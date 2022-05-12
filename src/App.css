@@ -105,27 +105,28 @@ body {
   line-height: 1;
 }
 a {
-  color: white;
+  color: #fff;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 500;
   text-shadow: 1px 1px 3px black;
-  display: flex;
-  justify-content: center;
 }
 a:hover {
   color: white;
 }
-#sun a {
-  font-size: 3.5vw;
-  line-height: 9vw;
+span{
+  text-align: center;
 }
-#jupiter a {
-  font-size: 2vw;
-  line-height: 4vw;
+#sun span {
+  font-size: 3.3vw;
+  line-height: 11vw;
 }
-#saturn a {
-  font-size: 1.6vw;
-  line-height: 3.2vw;
+#jupiter a span {
+  font-size: 1.8vw;
+  line-height: 5vw;
+}
+#saturn a span {
+  font-size: 1.4vw;
+  line-height: 5vw;
 }
 ol,
 ul {

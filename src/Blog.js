@@ -5,7 +5,7 @@ export default function Blog() {
   const { id } = useParams();
   const blog = data.filter((posts) => posts.id === `${id}`);
   return (
-    <div className="App flex-col">
+    <div>
       <div className="backhome">
         <button className="backhome-btn">
           <Link className="text-center" to="/">
@@ -13,12 +13,15 @@ export default function Blog() {
           </Link>
         </button>
       </div>
-      <section className="blog" style={{fontSize:"3vh"}}>
-        <h2 style={{ textAlign: "center" }}>{blog[0].title}</h2>
+      <section className="blog">
+        <h2 className="text-center title">{blog[0].title}</h2>
         <article>
           <p>{blog[0].text1}</p>
+          <br />
           <p>{blog[0].text2}</p>
+          <br />
           <p>{blog[0].text3}</p>
+          <br />
           <p>{blog[0].text4}</p>
         </article>
       </section>
